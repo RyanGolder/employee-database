@@ -18,7 +18,7 @@ This app requires an installation of express, jshint, mysql2 and inquirer. All y
 ## Usage
 To use this application, refer to the installation instructions beforehand. Once you have installed what you require, in your integrated termainal, type 'node server.js' and hit enter. You will then be presented with a list of options to choose from. Navigate through them using the arrow keys on your keyboard. Below is a video link to assist:
 
-!!!! INSERT VIDEO LINK HERE !!!!
+https://watch.screencastify.com/v/BIeN5IEuMhEAMYIFBrH4
 
 ## Contributing
 If you wish to contribute to this employee database manager, please refer to the following: 
