@@ -116,6 +116,7 @@ function addDepartment() {
     });
 }
 
+// Add a role
 function addRole() {
     inquirer.prompt([
         {
@@ -151,6 +152,7 @@ function addRole() {
     });
 }
 
+// Add an employee
 function addEmployee() {
     inquirer.prompt([
         {
@@ -192,6 +194,7 @@ function addEmployee() {
     });
 }
 
+// Update an employee's role
 function updateEmployeeRole() {
     db.promise().query("SELECT * FROM employee")
     .then(([rows, fields]) => {
@@ -220,4 +223,5 @@ function updateEmployeeRole() {
     .catch(err => console.log(err));
 }
 
+// Run the menu function
 showMenu();
